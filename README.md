@@ -20,14 +20,12 @@ And run the program it will generate a output txt file. This file contains all o
 If you need to provide images there just use the following piece of code
 Outside the p tag and inside the article tag
 
-``<div class="image-container">
-            <img src=”yourImage.jpg/png/whatever image extension" alt="Wrapped Image">
-</div>``
+```<div class="image-container"><img src=”yourImage.jpg/png/whatever image extension" alt="Wrapped Image"></div>```
 
 Development work Pending for version two (Do it if you are interested):
 The link_detector file contains a monstrous regex. You have to run it to get all the links in an array. You have to scan the generated html file and replace the links with a tags to make it clickable. 
-`Scan html then replace(the strings with the link string)
+Scan html then replace(the strings with the link string)
 Wrap it like below
-<a href=”{link}”>{link}</a>`
+`<a href=”{link}”>{link}</a>`
 
 
